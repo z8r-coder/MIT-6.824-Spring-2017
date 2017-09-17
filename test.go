@@ -6,17 +6,58 @@ import (
 
 func main() {
 	//var age int = 1;
-	aa := 2;
-	fmt.Println(aa)
-	iftest()
-	fortest()
-	fmt.Println(funcTestMax(1,2))
-	a,b := funcTestMutRet(1,"2")
-	fmt.Println(a,b)
+	//aa := 2;
+	//fmt.Println(aa)
+	//iftest()
+	//fortest()
+	//fmt.Println(funcTestMax(1,2))
+	//a,b := funcTestMutRet(1,"2")
+	//fmt.Println(a,b)
+	//
+	//var c1 Circle
+	//c1.radius = 10.00
+	//fmt.Println(c1.getArea())
+	//fmt.Println(testDefer1())
 
-	var c1 Circle
-	c1.radius = 10.00
-	fmt.Println(c1.getArea())
+	//fmt.Println(Fa())
+	//fmt.Println(testDefer2())
+
+	//fmt.Println(testDefer3())
+	fmt.Println(testDefer4)
+}
+
+func testDefer1() int {
+	x := 5
+	defer func() {
+		x += 1
+	}()
+	return x
+}
+
+func testDefer2() (x int) {
+	defer func() {
+		x += 1
+	}()
+	return 5
+}
+
+func testDefer3() (y int) {
+	x := 5
+	defer func() {
+		x += 1
+	}()
+	return x
+}
+
+func testDefer4(x int)  {
+	defer func(x int) {
+		x += 1
+	}(x)
+	return 5
+}
+
+func Fa()(result int)  {
+	return
 }
 //if语句
 func iftest()  {
