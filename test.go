@@ -23,7 +23,22 @@ func main() {
 	//fmt.Println(testDefer2())
 
 	//fmt.Println(testDefer3())
-	fmt.Println(testDefer4)
+	//fmt.Println(testDefer4)
+	//testIf()
+
+	testMap()
+}
+
+func testIf()  {
+	m := make(map[string]string)
+	m["1"] = "1"
+	m["2"] = "2"
+	m["3"] = "3"
+	m["4"] = "4"
+	//a := [...]string{"1", "2", "3", "4"}
+	if ok := m["2"]; ok == "2" {
+		fmt.Println(ok)
+	}
 }
 
 func testDefer1() int {
@@ -41,6 +56,14 @@ func testDefer2() (x int) {
 	return 5
 }
 
+func testMap()  {
+	mm := make(map[string]string)
+	mm["2"] = "1"
+	val,ok := mm["1"]
+	fmt.Println(val)
+	fmt.Println(ok)
+}
+
 func testDefer3() (y int) {
 	x := 5
 	defer func() {
@@ -53,7 +76,7 @@ func testDefer4(x int)  {
 	defer func(x int) {
 		x += 1
 	}(x)
-	return 5
+	return
 }
 
 func Fa()(result int)  {
