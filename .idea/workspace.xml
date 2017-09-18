@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff2b2f8-76ee-47f3-bb6f-bd0223926fe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kvrpc/Kv.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.go" afterPath="$PROJECT_DIR$/test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kvrpc/Kv.go" afterPath="$PROJECT_DIR$/src/kvrpc/Kv.go" />
     </list>
     <ignored path="MIT-6.824-Spring-2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +50,10 @@
       <file leaf-file-name="Kv.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kvrpc/Kv.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+            <state relative-caret-position="-336">
+              <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
               <folding>
-                <element signature="e#14#46#0" expanded="true" />
+                <element signature="e#14#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,7 +205,7 @@
       <recent name="H:\MIT-6.824-Spring-2017" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run test.go">
+  <component name="RunManager" selected="Go Single File.go run Kv.go">
     <configuration default="false" name="Build test.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="MIT-6.824-Spring-2017" />
       <working_directory value="$PROJECT_DIR$" />
@@ -225,6 +223,12 @@
       <module name="MIT-6.824-Spring-2017" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/crawler/Crawler.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run Kv.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="MIT-6.824-Spring-2017" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/kvrpc/Kv.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -661,16 +665,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Application.Build test.go and run" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Crawler.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Kv.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Crawler.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.Build test.go and run" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Kv.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Crawler.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Application.Build test.go and run" />
       </list>
     </recent_temporary>
   </component>
@@ -688,15 +694,15 @@
       <workItem from="1505487582692" duration="1351000" />
       <workItem from="1505553085126" duration="5142000" />
       <workItem from="1505621873593" duration="14594000" />
-      <workItem from="1505747597662" duration="1521000" />
+      <workItem from="1505747597662" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22695000" />
+    <option name="totallyTimeSpent" value="23492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -705,7 +711,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44425386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29845625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -877,10 +883,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kvrpc/Kv.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        <state relative-caret-position="-336">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
           <folding>
-            <element signature="e#14#46#0" expanded="true" />
+            <element signature="e#14#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
