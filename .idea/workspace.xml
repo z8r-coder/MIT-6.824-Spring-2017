@@ -2,73 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff2b2f8-76ee-47f3-bb6f-bd0223926fe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kvraft/client.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kvraft/common.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kvraft/config.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kvraft/server.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kvraft/test_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/labrpc/labrpc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/labrpc/test_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/diskvd.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/ii.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/lockc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/lockd.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/mr-challenge.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/mr-testout.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pbc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pbd.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-being_ernest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-dorian_gray.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-dracula.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-emma.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-frankenstein.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-great_expectations.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-grimm.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-huckleberry_finn.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-les_miserables.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-metamorphosis.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-moby_dick.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-sherlock_holmes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-tale_of_two_cities.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-tom_sawyer.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-ulysses.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/pg-war_and_peace.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test-ii.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test-mr.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test-wc.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/viewd.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/wc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/common.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/common_map.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/common_reduce.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/common_rpc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/master.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/master_rpc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/master_splitmerge.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/schedule.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/test_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mapreduce/worker.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/raft/config.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/raft/persister.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/raft/raft.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/raft/test_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/raft/util.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardkv/client.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardkv/common.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardkv/config.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardkv/server.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardkv/test_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardmaster/client.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardmaster/common.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardmaster/config.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardmaster/server.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/shardmaster/test_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mapreduce/common_reduce.go" afterPath="$PROJECT_DIR$/src/mapreduce/common_reduce.go" />
     </list>
     <ignored path="MIT-6.824-Spring-2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,59 +24,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.go">
+      <file leaf-file-name="common_reduce.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mapreduce/common_reduce.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="408">
+              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
               <folding>
-                <element signature="e#14#32#0" expanded="true" />
+                <element signature="e#19#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Crawler.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
+      <file leaf-file-name="master.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapreduce/master.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="29" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1210">
+              <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kv.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kvrpc/Kv.go">
+      <file leaf-file-name="test_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="30" />
-              <folding>
-                <element signature="e#14#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2948">
+              <caret line="145" column="12" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kvraft/client.go">
+      <file leaf-file-name="common_map.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mapreduce/common_map.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="e#16#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,6 +91,9 @@
         <option value="$PROJECT_DIR$/src/kvrpc/Kv.go" />
         <option value="$PROJECT_DIR$/src/labrpc.go" />
         <option value="$PROJECT_DIR$/src/kvraft/client.go" />
+        <option value="$PROJECT_DIR$/src/mapreduce/test_test.go" />
+        <option value="$PROJECT_DIR$/src/mapreduce/common_map.go" />
+        <option value="$PROJECT_DIR$/src/mapreduce/common_reduce.go" />
       </list>
     </option>
   </component>
@@ -184,7 +106,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -247,13 +169,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIT-6.824-Spring-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIT-6.824-Spring-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapreduce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +217,7 @@
       <recent name="H:\MIT-6.824-Spring-2017\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run Kv.go">
+  <component name="RunManager" selected="Go Test.TestSequentialSingle in test_test.go">
     <configuration default="false" name="Build test.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="MIT-6.824-Spring-2017" />
       <working_directory value="$PROJECT_DIR$" />
@@ -301,6 +241,15 @@
       <module name="MIT-6.824-Spring-2017" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/kvrpc/Kv.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSequentialSingle in test_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="MIT-6.824-Spring-2017" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="mapreduce" />
+      <pattern value="^TestSequentialSingle$" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -737,18 +686,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Application.Build test.go and run" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Crawler.go" />
       <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Kv.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestSequentialSingle in test_test.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Kv.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Crawler.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Application.Build test.go and run" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSequentialSingle in test_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Kv.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Crawler.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Application.Build test.go and run" />
       </list>
     </recent_temporary>
   </component>
@@ -766,16 +717,19 @@
       <workItem from="1505487582692" duration="1351000" />
       <workItem from="1505553085126" duration="5142000" />
       <workItem from="1505621873593" duration="14594000" />
-      <workItem from="1505747597662" duration="6534000" />
+      <workItem from="1505747597662" duration="6678000" />
+      <workItem from="1505917977734" duration="2301000" />
+      <workItem from="1506003072686" duration="613000" />
+      <workItem from="1506007003409" duration="5080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27708000" />
+    <option name="totallyTimeSpent" value="35846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -783,12 +737,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29845625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29845625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24508321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -841,143 +795,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.go">
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_reduce.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
-            <element signature="e#14#32#0" expanded="true" />
+            <element signature="e#19#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/master.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/golang/src/sync/waitgroup.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        <state relative-caret-position="1298">
+          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://H:/golang/src/builtin/builtin.go">
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="3190">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_reduce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#19#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/master.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3190">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/golang/src/sync/waitgroup.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/golang/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="1298">
           <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kvrpc/Kv.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
+        <state relative-caret-position="880">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="e#14#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/labrpc/labrpc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kvraft/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="374">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#16#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,7 +895,162 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/golang/src/sync/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2156">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/golang/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/golang/src/sync/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/golang/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/Crawler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kvrpc/Kv.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/labrpc/labrpc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kvraft/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/master.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="59" column="55" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/test_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2948">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapreduce/common_reduce.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <element signature="e#19#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
