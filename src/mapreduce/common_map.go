@@ -59,7 +59,7 @@ func doMap(
 
 	file, err := os.Open(inFile);
 	if err != nil {
-		fmt.Errorf(err)
+		fmt.Println(err)
 	}
 
 	inf, err := file.Stat()
@@ -95,8 +95,8 @@ func doMap(
 	}
 }
 
-func ihash(s string) int {
+func ihash(s string) uint32 {
 	h := fnv.New32a()
 	h.Write([]byte(s))
-	return int(h.Sum32() & 0x7fffffff)
+	return h.Sum32()
 }
